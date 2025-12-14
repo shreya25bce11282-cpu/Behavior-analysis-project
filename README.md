@@ -13,4 +13,4 @@ It includes data analysis, machine learning models, and web-based interactive de
 - Build foundational skills in AI/ML and psychology  
 - Create interactive projects combining tech and behaviour science  
 - Prepare for further research and study abroad applications
-    -Initial focus: cognitive processes (attention and memory) as the basis for behaviour analysis.
+- Initial focus: cognitive processes (attention and memory) as the basis for behaviour analysis.
