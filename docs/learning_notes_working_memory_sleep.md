@@ -1,5 +1,5 @@
 ## What is Working Memory?
-Working memory is a mental workspace that temporarily holds and manipulates information, allowing the brain to decide what should be stored in long-term memory. It acts as a bridge between incoming sensory information and long term storage, but it can retain information only for a short duration.
+Working memory is a mental workspace that temporarily holds and manipulates information, allowing the brain to decide what should be stored in long term memory. It acts as a bridge between incoming sensory information and long term storage, but it can retain information only for a short duration.
 
 ## Why Working Memory is Limited
 Working memory is limited because the brain can actively process only about four chunks of information at a time. When we attempt to memorize information without understanding or divide attention across multiple tasks, working memory becomes overloaded. This overload occurs because information often enters working memory as isolated chunks, which require significant cognitive effort to integrate and meaningfully organize before they can be encoded into long term memory.
