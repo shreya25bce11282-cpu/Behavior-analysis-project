@@ -31,7 +31,8 @@ The cleaned dataset is stored under `data/processed/`.
 - Sleep quality shows a strong negative relationship with stress level.  
 - Better sleep quality is associated with lower stress.  
 - Multivariate regression indicates sleep quality has a stronger influence on stress than sleep duration.  
-- Decision Tree regression achieved high performance, though linear models were preferred for interpretability.  
+- Decision Tree regression achieved high performance, though linear models were preferred for interpretability.
+- Sleep duration and sleep quality are strongly correlated; however, sleep quality shows a much stronger negative relationship with stress. This suggests that the effect of sleep duration on stress is largely indirect and mediated through perceived sleep quality.
 
 ## Goals
 - Build foundational skills in AI/ML and psychology  
