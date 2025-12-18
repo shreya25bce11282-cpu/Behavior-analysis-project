@@ -1,3 +1,7 @@
+# Working Memory, Sleep, and Cognitive Performance
+
+This document explains how sleep quality affects working memory, attention, and stress, grounding the project’s findings in cognitive theory.
+
 ## What is Working Memory?
 Working memory is a mental workspace that temporarily holds and manipulates information, allowing the brain to decide what should be stored in long term memory. It acts as a bridge between incoming sensory information and long term storage, but it can retain information only for a short duration.
 
