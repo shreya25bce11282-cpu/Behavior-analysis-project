@@ -1,79 +1,99 @@
 # Behavior Analysis Project
 
-## Abstract
+## Overview
 
-Mood regulation is closely linked to sleep and cognitive functioning, yet mood is difficult to measure directly in behavioral datasets. This project investigates the relationship between sleep quality, sleep duration, and stress levels, using stress as an operational proxy for mood. Through exploratory data analysis and multivariate linear regression, sleep quality emerges as a substantially stronger predictor of stress than sleep duration. Interpreted through cognitive load theory and working memory limitations, the findings suggest that sleep quality affects mood-related outcomes by influencing cognitive efficiency rather than total rest time. The project highlights both the strengths and limitations of proxy-based behavioral modeling and provides insights relevant to human-centered technology and cognitive science.
+This project explores the relationship between **sleep, cognition, and mood-related outcomes** using a combination of **cognitive psychology theory** and **interpretable machine learning models**. The work is positioned at the intersection of **Psychology × Data Science × Human-Centered AI**, with a long term focus on HCI and Cognitive Science research.
+
+Rather than treating machine learning as a black box, this project is **theory-driven**: concepts from attention, working memory, and cognitive load guide the choice of variables, analysis, and interpretation of results.
 
 ---
 
-## Motivation
+## Research Motivation
 
-Understanding human behavior requires bridging psychology with quantitative analysis. Sleep is a fundamental biological process that directly affects attention, memory, emotional regulation, and stress. While mood is a complex and subjective construct, stress provides a measurable behavioral proxy that allows computational analysis. This project was designed as a first step toward combining psychology, machine learning, and behavioral data analysis with an eventual focus on HCI and cognitive science.
+From a cognitive psychology perspective, sleep plays a critical role in:
+
+* Neural recovery and synaptic resetting
+* Efficient functioning of attention and working memory
+* Emotional regulation
+
+Impairments in these systems often manifest subjectively as **stress, irritability, and reduced cognitive control**, which are commonly associated with mood disturbances.
+
+This project investigates whether **sleep quality** and **sleep duration** differ in how strongly they predict stress levels, and why.
 
 ---
 
 ## Dataset
 
-The dataset contains self reported measures related to sleep and lifestyle, including:
+* Source: Publicly available dataset from Kaggle (Sleep Health and Lifestyle Dataset)
+* Nature: Self-reported measures
 
-* Sleep duration
-* Sleep quality
-* Stress level
+### Key Variables Used
 
-Stress is treated as a proxy variable for mood, an approach that is explicitly discussed as a methodological limitation in the documentation.
+* **Sleep Duration** (hours)
+* **Sleep Quality** (ordinal scale)
+* **Stress Level** (ordinal scale)
+
+> **Note on Mood Operationalization:**
+> Stress is used as a *proxy measure* for mood related disturbance. This choice is theoretically justified and explicitly discussed as a limitation in `docs/mood_operationalization.md`.
 
 ---
 
-## Methods
+## Methodology
 
-1. **Data Inspection and Cleaning**
+The analysis follows a structured, reproducible pipeline:
 
-   * Selected relevant variables related to sleep and stress
-   * Renamed columns for clarity and consistency
-   * Saved a cleaned dataset for reproducibility
+1. **Data Inspection**
+   Understanding variable distributions and potential limitations of self reported data.
 
-2. **Exploratory Data Analysis (EDA)**
+2. **Data Cleaning**
+   Selecting relevant variables and producing a cleaned dataset for analysis.
 
-   * Visualized relationships between sleep variables and stress
-   * Examined correlations among sleep duration, sleep quality, and stress level
+3. **Exploratory Data Analysis (EDA)**
+   Examining correlations between sleep variables and stress levels.
 
-3. **Machine Learning Models**
+4. **Modeling**
 
-   * Simple linear regression: Sleep Quality → Stress Level
-   * Multivariate linear regression: Sleep Quality + Sleep Duration → Stress Level
-   * Evaluated models using MSE and R²
+   * Simple linear regression
+   * Multivariate linear regression
+
+The emphasis is on **interpretability** rather than predictive complexity.
 
 ---
 
 ## Key Findings
 
-* Sleep quality shows a strong negative relationship with stress.
-* Sleep duration alone has a weaker relationship with stress.
-* In multivariate regression, sleep quality dominates sleep duration as a predictor.
+* Sleep quality shows a **strong negative relationship** with stress levels.
+* Sleep duration shows a **much weaker relationship** with stress when sleep quality is controlled.
 
-These findings align with cognitive load theory: sleep quality affects how efficiently the brain processes information, whereas sleep duration reflects time asleep without guaranteeing neural recovery.
+### Multivariate Regression Results (Conceptual)
 
----
+* Sleep Quality coefficient ≈ **-1.27**
+* Sleep Duration coefficient ≈ **-0.10**
 
-## Psychological Interpretation
-
-The results are interpreted using concepts from cognitive psychology:
-
-* **Working memory limitations** (≈4 chunks)
-* **Cognitive load theory** (intrinsic, extraneous, germane load)
-* **Attention and emotional regulation**
-
-Poor sleep quality increases cognitive load and reduces executive control, leading to heightened stress even when sleep duration is adequate.
+These results align with **cognitive load theory**: it is not merely how long one sleeps, but whether sleep restores cognitive efficiency.
 
 ---
 
-## Limitations
+## Theoretical Interpretation
 
-* Mood is not measured directly; stress is used as a proxy.
-* The dataset relies on self reported measures.
-* Linear models capture associations, not causality.
+Drawing from cognitive psychology:
 
-These limitations are acknowledged and discussed in the documentation.
+* Poor sleep quality increases **extraneous cognitive load**
+* Working memory becomes inefficient
+* Attention fragments
+* Emotional regulation weakens
+
+This cognitive overload is experienced subjectively as **stress**, explaining why sleep quality dominates sleep duration in predicting outcomes.
+
+---
+
+## HCI / Design Implications
+
+From a human centered computing perspective:
+
+* Interfaces should minimize unnecessary cognitive load
+* Poor information hierarchy and multitasking-heavy designs may exacerbate stress, especially under sleep deprivation
+* Technology can be designed to *support* cognition rather than overload it
 
 ---
 
@@ -81,51 +101,62 @@ These limitations are acknowledged and discussed in the documentation.
 
 ```
 Behavior-analysis-project/
+│
 ├── data/
-│ ├── raw/
-│ │ └── sleep_health_lifestyle.csv
-│ └── processed/
-│ └── sleep_cleaned.csv
+│   ├── raw/
+│   │   └── sleep_health_lifestyle.csv
+│   └── processed/
+│       └── sleep_cleaned.csv
 │
 ├── docs/
-│ ├── psychology_intro.md
-│ ├── working_memory_sleep.md
-│ ├── cognitive_load_and_stress.md
-│ ├── mood_operationalization.md
-│ ├── dataset_description.md
-│ ├── data_inspection.md
-│ ├── data_cleaning_notes.md
-│ └── final_conclusion.md
+│   ├── psychology_intro.md
+│   ├── working_memory_sleep.md
+│   ├── cognitive_load_and_stress.md
+│   ├── dataset_description.md
+│   ├── data_inspection.md
+│   ├── data_cleaning_notes.md
+│   ├── mood_operationalization.md
+│   └── final_conclusion.md
 │
 ├── notebooks/
-│ ├── 01_data_cleaning.ipynb
-│ ├── 02_eda_sleep_mood.ipynb
-│ ├── 03_modeling.ipynb
-│ └── 04_multivariate_regression.ipynb
+│   ├── 01_data_cleaning.ipynb
+│   ├── 02_eda_sleep_mood.ipynb
+│   ├── 03_modeling.ipynb
+│   └── 04_multivariate_regression.ipynb
 │
-├── README.md
-└── src/
+└── README.md
 ```
+
+---
+
+## Limitations
+
+* Use of self reported data
+* Stress used as a proxy for mood
+* Cross sectional dataset (no causal inference)
+
+These limitations are acknowledged explicitly to maintain research transparency.
 
 ---
 
 ## Skills Demonstrated
 
-* Behavioral data cleaning and analysis
-* Machine learning with interpretability
-* Psychological theory integration
+* Cognitive psychology foundations
 * Research style documentation
+* Data cleaning and EDA
+* Interpretable machine learning
+* Theory driven analysis
 
 ---
 
 ## Future Directions
 
-* Extend models to include attention or productivity related variables
-* Explore non linear or interaction effects
-* Translate findings into HCI design guidelines for stress-reducing interfaces
+* Incorporating objective sleep measures (e.g., wearable data)
+* Extending analysis to attention or memory performance tasks
+* Designing and evaluating cognitively efficient interfaces (HCI focus)
 
 ---
 
-## Long Term Goal
+## Author Intent
 
-This project is part of a broader portfolio combining psychology, AI/ML, and human-centered design, aimed at preparation for advanced study in Cognitive Science or HCI.
+This project was built as part of a long-term academic trajectory toward **Cognitive Science / HCI graduate study**, emphasizing clarity, theory, and research thinking over model complexity.
