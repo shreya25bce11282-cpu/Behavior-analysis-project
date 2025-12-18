@@ -87,16 +87,6 @@ This cognitive overload is experienced subjectively as **stress**, explaining wh
 
 ---
 
-## HCI / Design Implications
-
-From a human centered computing perspective:
-
-* Interfaces should minimize unnecessary cognitive load
-* Poor information hierarchy and multitasking-heavy designs may exacerbate stress, especially under sleep deprivation
-* Technology can be designed to *support* cognition rather than overload it
-
----
-
 ## Project Structure
 
 ```
@@ -159,4 +149,4 @@ These limitations are acknowledged explicitly to maintain research transparency.
 
 ## Author Intent
 
-This project was built as part of a long-term academic trajectory toward **Cognitive Science / HCI graduate study**, emphasizing clarity, theory, and research thinking over model complexity.
+This project was built as part of a long term academic trajectory toward **Cognitive Science / HCI graduate study**, emphasizing clarity, theory, and research thinking over model complexity.
