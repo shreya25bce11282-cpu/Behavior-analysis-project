@@ -1,89 +1,80 @@
-# Behavior Analysis Project
+# 🧠 Behaviour Analysis Project  
+**A Psychology-Informed Data Analysis of Stress, Sleep, and Human Behaviour**
 
-## Overview
+## 📌 Project Overview
+This project explores the relationship between **sleep patterns, stress levels, and human behavioural outcomes** using real-world lifestyle data.  
+The aim is to combine **psychological theory** with **data analysis techniques** to understand how cognitive and emotional factors influence daily functioning.
 
-This project explores the relationship between **sleep, cognition, and mood-related outcomes** using a combination of **cognitive psychology theory** and **interpretable machine learning models**. The work is positioned at the intersection of **Psychology × Data Science × Human-Centered AI**, with a long term focus on HCI and Cognitive Science research.
-
-Rather than treating machine learning as a black box, this project is **theory-driven**: concepts from attention, working memory, and cognitive load guide the choice of variables, analysis, and interpretation of results.
-
----
-
-## Research Motivation
-
-From a cognitive psychology perspective, sleep plays a critical role in:
-
-* Neural recovery and synaptic resetting
-* Efficient functioning of attention and working memory
-* Emotional regulation
-
-Impairments in these systems often manifest subjectively as **stress, irritability, and reduced cognitive control**, which are commonly associated with mood disturbances.
-
-This project investigates whether **sleep quality** and **sleep duration** differ in how strongly they predict stress levels, and why.
+Rather than focusing on prediction alone, this project emphasizes **behavioural interpretation**, laying the groundwork for future **human-centred design and HCI-focused interventions**.
 
 ---
 
-## Dataset
-
-* Source: Publicly available dataset from Kaggle (Sleep Health and Lifestyle Dataset)
-* Nature: Self-reported measures
-
-### Key Variables Used
-
-* **Sleep Duration** (hours)
-* **Sleep Quality** (ordinal scale)
-* **Stress Level** (ordinal scale)
-
-> **Note on Mood Operationalization:**
-> Stress is used as a *proxy measure* for mood related disturbance. This choice is theoretically justified and explicitly discussed as a limitation in `docs/mood_operationalization.md`.
+## 🎯 Objectives
+- Analyze how **sleep duration and sleep quality** relate to **stress levels**
+- Interpret behavioural patterns using **psychological and cognitive principles**
+- Build a psychology-first foundation for future **HCI and UX design projects**
+- Practice research-oriented behavioural data analysis using Python
 
 ---
 
-## Methodology
+## 🧪 Methodology
+1. **Data Selection**
+   - Lifestyle and health dataset containing sleep, stress, and behavioural indicators
 
-The analysis follows a structured, reproducible pipeline:
+2. **Data Cleaning & Processing**
+   - Removed irrelevant attributes
+   - Renamed and standardized variables
+   - Handled missing or inconsistent data
 
-1. **Data Inspection**
-   Understanding variable distributions and potential limitations of self reported data.
+3. **Exploratory Data Analysis**
+   - Statistical summaries of behavioural variables
+   - Visual analysis of relationships between sleep and stress
+   - Identification of behavioural trends and correlations
 
-2. **Data Cleaning**
-   Selecting relevant variables and producing a cleaned dataset for analysis.
-
-3. **Exploratory Data Analysis (EDA)**
-   Examining correlations between sleep variables and stress levels.
-
-4. **Modeling**
-
-   * Simple linear regression
-   * Multivariate linear regression
-
-The emphasis is on **interpretability** rather than predictive complexity.
-
----
-
-## Key Findings
-
-* Sleep quality shows a **strong negative relationship** with stress levels.
-* Sleep duration shows a **much weaker relationship** with stress when sleep quality is controlled.
-
-### Multivariate Regression Results (Conceptual)
-
-* Sleep Quality coefficient ≈ **-1.27**
-* Sleep Duration coefficient ≈ **-0.10**
-
-These results align with **cognitive load theory**: it is not merely how long one sleeps, but whether sleep restores cognitive efficiency.
+4. **Psychological Interpretation**
+   - Analysis grounded in:
+     - Stress–response theory
+     - Cognitive load concepts
+     - Behavioural self-regulation
+   - Focus on *why* behavioural patterns occur, not just *what* patterns exist
 
 ---
 
-## Theoretical Interpretation
+## 🧠 Psychological Concepts Applied
+- Cognitive Load  
+- Stress and Performance Relationship  
+- Sleep and Emotional Regulation  
+- Behavioural Variability  
 
-Drawing from cognitive psychology:
+These concepts provide a cognitive and emotional context for interpreting numerical findings.
 
-* Poor sleep quality increases **extraneous cognitive load**
-* Working memory becomes inefficient
-* Attention fragments
-* Emotional regulation weakens
+---
 
-This cognitive overload is experienced subjectively as **stress**, explaining why sleep quality dominates sleep duration in predicting outcomes.
+## 🛠️ Tech Stack
+- **Python**
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Jupyter Notebook
+
+---
+
+## 📊 Key Insights
+- Reduced sleep quality is associated with elevated stress levels
+- Behavioural variability increases under higher stress conditions
+- Findings suggest opportunities for **cognitive load–aware system and interface design**
+
+*(Detailed results are documented in the notebooks and analysis files.)*
+
+---
+
+## 🔬 Project Significance
+This project represents the **behavioural analysis phase** of a larger human-centred research pipeline:
+
+- **Project 1:** Behavioural understanding through psychological data analysis *(this project)*
+- **Project 2:** Cognitive load–aware interface design and user evaluation *(planned)*
+
+Together, these projects aim to bridge **psychology, data science, and human–computer interaction**.
 
 ---
 
@@ -139,14 +130,18 @@ These limitations are acknowledged explicitly to maintain research transparency.
 
 ---
 
-## Future Directions
-
-* Incorporating objective sleep measures (e.g., wearable data)
-* Extending analysis to attention or memory performance tasks
-* Designing and evaluating cognitively efficient interfaces (HCI focus)
+## 🚀 Future Work
+- Design interfaces informed by behavioural insights
+- Conduct controlled user studies focusing on cognitive load
+- Extend analysis toward adaptive or personalized systems
 
 ---
 
 ## Author Intent
 
 This project was built as part of a long term academic trajectory toward **Cognitive Science / HCI graduate study**, emphasizing clarity, theory, and research thinking over model complexity.
+
+## 📄 Author
+**Shreya Adhikary**  
+B.Tech Computer Science  
+Psychology + Technology | Behavioural Data Analysis
