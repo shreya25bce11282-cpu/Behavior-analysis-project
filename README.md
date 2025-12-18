@@ -81,20 +81,30 @@ These limitations are acknowledged and discussed in the documentation.
 
 ```
 Behavior-analysis-project/
-│
 ├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   └── sleep_stress_regression.ipynb
+│ ├── raw/
+│ │ └── sleep_health_lifestyle.csv
+│ └── processed/
+│ └── sleep_cleaned.csv
+│
 ├── docs/
-│   ├── psychology_intro.md
-│   ├── mood_operationalization.md
-│   ├── data_inspection.md
-│   ├── data_cleaning_notes.md
-│   └── final_conclusion.md
-
-└── README.md
+│ ├── psychology_intro.md
+│ ├── working_memory_sleep.md
+│ ├── cognitive_load_and_stress.md
+│ ├── mood_operationalization.md
+│ ├── dataset_description.md
+│ ├── data_inspection.md
+│ ├── data_cleaning_notes.md
+│ └── final_conclusion.md
+│
+├── notebooks/
+│ ├── 01_data_cleaning.ipynb
+│ ├── 02_eda_sleep_mood.ipynb
+│ ├── 03_modeling.ipynb
+│ └── 04_multivariate_regression.ipynb
+│
+├── README.md
+└── src/
 ```
 
 ---
