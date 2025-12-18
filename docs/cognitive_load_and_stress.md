@@ -1,3 +1,7 @@
+# Cognitive Load Theory and Stress
+
+This document uses cognitive load theory to interpret why sleep quality predicts stress better than sleep duration.
+
 ## What is cognitive load 
 Cognitive load refers to the total amount of mental effort being used by working memory at a given time. Since working memory has limited capacity, excessive cognitive load can impair attention, learning, and decision-making.
 
