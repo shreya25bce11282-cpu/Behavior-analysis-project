@@ -1,4 +1,7 @@
-# Operationalizing Mood in This Study
+# Operationalizing Mood Using Stress
+
+This document explains why stress is used as a proxy for mood in this project and discusses the limitations of this choice.
+
 
 ## What is Mood?
 Mood refers to a relatively stable emotional state that influences how individuals think, feel, and behave over a period of time. Unlike emotions, which are short-lived and intense, mood tends to persist and affect daily functioning.
