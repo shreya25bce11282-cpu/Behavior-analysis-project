@@ -31,15 +31,4 @@ Sleep Duration Coefficient ≈ -0.10
 
 When both variables are considered together, sleep quality emerges as the stronger predictor of stress. This aligns with cognitive load theory: sleep quality determines how efficiently the brain processes information, whereas sleep duration only reflects how long the body rested. Efficient cognitive processing reduces overload, thereby lowering stress levels
 
-## Design implications
-To reduce cognitive load, digital systems should be designed with:
 
--Clear information hierarchy
-
--Minimal visual clutter
-
--Reduced multitasking demands
-
--Simple, focused interfaces
-
-Such designs support working memory limitations, especially for users experiencing poor sleep or high stress.
