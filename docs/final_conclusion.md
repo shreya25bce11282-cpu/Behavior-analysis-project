@@ -26,5 +26,5 @@ Overall, the findings suggest that sleep quality is a strong predictor of mood
 (stress level), reinforcing the psychological understanding that poor sleep
 negatively affects emotional regulation and well-being.
 
-From an HCI perspective, these findings highlight the importance of designing systems that account for users’ cognitive state. Since sleep quality affects cognitive load, attention, and emotional regulation, interfaces that minimize extraneous cognitive load may be especially beneficial for users experiencing fatigue or stress. This suggests a future direction toward adaptive or cognitively considerate interface design.
+
 
