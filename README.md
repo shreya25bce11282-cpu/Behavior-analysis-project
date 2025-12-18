@@ -1,8 +1,8 @@
 # Behavior Analysis Project
 
-This project explores the intersection of psychology and technology to analyze human behavior.  
-It applies data analysis and machine learning techniques to understand how sleep patterns
-influence mood and stress levels.
+## Abstract
+Mood regulation is closely linked to sleep and cognitive functioning, yet is difficult to measure directly in behavioral datasets. This project examines the relationship between sleep quality, sleep duration, and stress levels, using stress as an operational proxy for mood. Through exploratory analysis and multivariate linear regression, sleep quality emerges as a substantially stronger predictor of stress than sleep duration. Interpreted through cognitive load theory and working memory limitations, the findings suggest that sleep quality affects mood-related outcomes by influencing cognitive efficiency rather than total rest time. The study highlights both the value and limitations of proxy-based behavioral analysis and informs human-centered technology design aimed at reducing cognitive overload and stress.
+
 
 ## Project Structure
 - `docs/` — Psychology notes and conceptual background  
