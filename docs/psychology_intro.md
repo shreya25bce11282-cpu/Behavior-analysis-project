@@ -1,6 +1,6 @@
-# Introduction to Psychology
+# Psychological Foundations for Behaviour Analysis
 
-This document introduces core psychological concepts related to sleep, mood, and cognition that form the theoretical foundation of this project.
+This document introduces core concepts from cognitive psychology that form the theoretical basis for this project.
 
 ## What is Cognitive Psychology?  
 Cognitive psychology is the scientific study of the higher functions of the brain, including perception, memory, learning, and thinking.
