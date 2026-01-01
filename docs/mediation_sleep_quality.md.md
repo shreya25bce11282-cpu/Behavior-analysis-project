@@ -52,3 +52,13 @@ This supports cognitive models in which internal appraisal and perception mediat
 
 ## Cognitive Science Relevance
 The findings operationalize a core cognitive science principle: **internal representations and subjective experience mediate the influence of physical inputs on psychological states**. This mediation framework bridges behavioral data with cognitive theory, highlighting the role of perception and appraisal in stress regulation.
+
+---
+
+## Cognitive Science Interpretation
+
+This mediation analysis supports a core cognitive science principle:  
+objective physiological variables (sleep duration) influence affective outcomes (stress) primarily through subjective cognitive experience (sleep quality).
+
+Sleep quality functions as a mediating cognitive construct, aligning with theories of self regulation, interoceptive awareness, and affective appraisal.
+
