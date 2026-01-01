@@ -115,6 +115,7 @@ Behavior-analysis-project/
 │   ├── data_inspection.md
 │   ├── data_cleaning_notes.md
 │   ├── mood_operationalization.md
+│   ├── mediation_sleep_quality.md
 │   └── final_conclusion.md
 │
 ├── notebooks/
@@ -124,6 +125,7 @@ Behavior-analysis-project/
 │   └── 04_multivariate_regression.ipynb
 │
 └── README.md
+
 ```
 
 ---
