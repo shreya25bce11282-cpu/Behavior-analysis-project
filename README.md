@@ -134,9 +134,26 @@ Behavior-analysis-project/
 This project represents the **behavioural analysis phase** of a larger human centred research pipeline:
 
 - **Project 1:** Behavioural understanding through psychological data analysis *(this project)*
-- **Project 2:** Cognitive load aware interface design and user evaluation *(planned)*
+- **Project 2:** Cognitive load and stress — theoretical analysis  
+- **Project 3:** Predicting cognitive fatigue from digital interaction patterns (computational modeling)
+
 
 Together, these projects aim to bridge **psychology, data science, and human–computer interaction**.
+
+---
+
+## Research Arc
+
+This repository represents one component of a broader research trajectory in Cognitive Science.
+
+A full overview of how this project connects with related theoretical and computational work is documented here:
+
+→ 📄 **Research Arc:** [`docs/research_arc.md`](docs/research_arc.md)
+
+The arc integrates:
+- Behavioral data analysis of sleep and stress
+- Cognitive theory on load, working memory, and fatigue
+- Computational modeling of latent cognitive states from interaction data
 
 ---
 
@@ -165,6 +182,7 @@ These limitations are acknowledged explicitly to maintain research transparency.
 * Incorporating objective sleep measures (e.g., wearable data)
 * Extending analysis to attention or memory performance tasks
 * Designing and evaluating cognitively efficient interfaces (HCI focus)
+This work progressively moves from self-reported measures toward passive behavioral inference of cognitive states, aligning with modern directions in computational cognitive science and HCI.
 
 ---
 
