@@ -65,10 +65,14 @@ The emphasis is on **interpretability** rather than predictive complexity.
 - Matplotlib / Seaborn
 - Jupyter Notebook
 
-## Key Findings
+### Key Findings
+- Sleep quality shows a strong negative relationship with stress levels.
+- Sleep duration shows a much weaker relationship with stress once sleep quality is controlled.
 
-* Sleep quality shows a **strong negative relationship** with stress levels.
-* Sleep duration shows a **much weaker relationship** with stress when sleep quality is controlled.
+Mediation analysis indicates that **sleep quality mediates the relationship between sleep duration and stress**, suggesting that subjective cognitive restoration — not sleep length alone — drives stress regulation.
+
+→ Detailed analysis: [`docs/mediation_sleep_quality.md`](docs/mediation_sleep_quality.md)
+.
 
 ### Multivariate Regression Results (Conceptual)
 
@@ -164,7 +168,8 @@ These limitations are acknowledged explicitly to maintain research transparency.
 
 ## Author Intent
 
-This project was built as part of a long-term academic trajectory toward **Cognitive Science / HCI graduate study**, emphasizing clarity, theory, and research thinking over model complexity.
+This project was built as part of a long term academic trajectory toward Cognitive Science / HCI graduate study, emphasizing **mechanistic explanation, mediation based reasoning, and theory driven analysis** over model complexity.
+
 
 ---
 
