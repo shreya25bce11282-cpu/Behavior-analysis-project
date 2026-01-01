@@ -1,4 +1,9 @@
-# Mediation Analysis: Subjective Sleep Quality as a Cognitive Mediator
+# Mediation Analysis: Sleep Quality as a Cognitive Mechanism
+
+This analysis investigates whether **sleep quality mediates the relationship between sleep duration and stress levels**, rather than sleep duration directly influencing stress.
+
+This framing aligns with cognitive science perspectives that emphasize **subjective experience as a mediating layer** between physiological states and affective outcomes.
+
 
 ## Conceptual Motivation
 Cognitive science research emphasizes that subjective experience often mediates the impact of objective physiological conditions on affective outcomes. In the context of sleep, duration represents an objective measure, whereas sleep quality reflects internal cognitive appraisal.
@@ -57,8 +62,14 @@ The findings operationalize a core cognitive science principle: **internal repre
 
 ## Cognitive Science Interpretation
 
-This mediation analysis supports a core cognitive science principle:  
-objective physiological variables (sleep duration) influence affective outcomes (stress) primarily through subjective cognitive experience (sleep quality).
+These results support a mediation framework in which **sleep quality functions as a cognitive-affective mediator**.
 
-Sleep quality functions as a mediating cognitive construct, aligning with theories of self regulation, interoceptive awareness, and affective appraisal.
+Rather than sleep duration directly reducing stress, longer sleep appears to reduce stress primarily by improving subjective sleep quality. This aligns with cognitive theories of:
+
+- Cognitive load reduction
+- Improved working memory efficiency
+- Enhanced emotional regulation
+
+In this framework, stress is not a direct consequence of biological sleep length, but an experiential outcome shaped by perceived cognitive restoration.
+
 
